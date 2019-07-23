@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-public class LoginController {
+public clas LoginController {
 
 	
 
@@ -15,7 +15,7 @@ public class LoginController {
 	static int x;
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public void activate() {
+	blic void activate() {
 		
 		System.out.println("HIII");
 
