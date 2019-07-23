@@ -23,7 +23,7 @@ public class LoginController {
 	
 	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
 	public String welcome(){
-		return "Hi devops";
+		return "Hi devops All";
 	}
 	
 
